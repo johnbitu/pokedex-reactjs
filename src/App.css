@@ -23,8 +23,14 @@ body {
     margin: 10px auto
 }
 
+.card{
+  max-height: 600px;
+  min-height: 600px;
+}
 .card-img-top {
-  width: 180px;
+
+  min-height: 150px;
+  max-height: 150px;
   border-radius: 20px;
 }
 
